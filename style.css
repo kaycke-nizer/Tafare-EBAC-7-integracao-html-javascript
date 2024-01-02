@@ -45,9 +45,9 @@ a {
 }
 
 #corpo_texto {
-    align-items: center;
+    align-items: top;
     display: inline-flex;
-    margin: 0 15%;
+    margin: 20px 15%;
 }
 
 #descricao {
@@ -82,6 +82,7 @@ a {
     border: none;
     font-size: 22px;
     outline: none;
+    
 }
 .numeros input::-webkit-inner-spin-button,
 .numeros input::-webkit-outer-spin-button {
@@ -95,10 +96,17 @@ a {
 }
 
 #resultado {
-    font-size: 32pt;
+    font-size: 16pt;
 }
 
 .escondido {
     display: none;
 }
 
+.aviso_positivo {
+    color: green;
+}
+
+.aviso_negativo {
+    color: red;
+}
